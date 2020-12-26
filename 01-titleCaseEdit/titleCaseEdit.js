@@ -12,4 +12,4 @@ function titleCaseEdit(title) {
 
 // Do not edit this line;
 //module.exports = titleCaseEdit;
- titleCase("the cow jumped over the moon");
+ titleCaseEdit("the cow jumped over the moon");
