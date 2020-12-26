@@ -1,6 +1,5 @@
 function titleCaseEdit(title) {
   // Insert code here;
-  function titleCase(title) {
     title=title.toLowerCase();
     title=title.split(' ');
   for (var i=0; i<title.length; i++)
@@ -9,8 +8,6 @@ function titleCaseEdit(title) {
     }
       console.log(title.join(' '));
       return title;
-}
-
 }
 
 // Do not edit this line;
