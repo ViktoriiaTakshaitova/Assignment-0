@@ -4,4 +4,5 @@ function greetFriend(name) {
 }
 
 // Do not edit this line;
-module.exports = greetFriend;
+//module.exports = greetFriend;
+greetFriend("Bob");
