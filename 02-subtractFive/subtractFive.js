@@ -5,9 +5,9 @@ function subtractFive(num) {
     {
      num[i]-=5;
     }
-  console.log(num);
+  return (num);
 }
 
 // Do not edit this line;
 //module.exports = subtractFive;
-subtractFive();
+console.log(subtractFive());
