@@ -6,19 +6,19 @@ function fizzBuzz(start, end) {
     {
       if (i/3==0)
         {
-          document.write(" "+ "Fizz" + " ");
+          console.log(" "+ "Fizz" + " ");
         }
        if (i/5==0)
         {
-          document.write(" "+"Buzz" + " ");
+          console.log(" "+"Buzz" + " ");
         }
        if (i/3==0 && i/5==0)
         {
-          document.write(" " + "FizzBuzz" + " ");
+          console.log(" " + "FizzBuzz" + " ");
         }
        else // (i/3!=0 && i/5!=0)
         {
-          document.write(i); //console.log
+          console.log(i); //console.log
         }
     }
  
