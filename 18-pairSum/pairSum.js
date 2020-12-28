@@ -22,4 +22,4 @@ function pairSum(nums, target) {
 
 // Do not edit this line;
 //module.exports = pairSum;
-document.write(pairSum());//console.log
+console.log(pairSum());
