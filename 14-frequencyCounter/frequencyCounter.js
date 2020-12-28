@@ -13,7 +13,7 @@ for (var i=0; i < word.length; i++)
         {
           count=1;
         }
-   document.write( word[i] + ":"+ count + ",\t");
+   console.log( word[i] + ":"+ count + ",\t");
   }
 }
 // Do not edit this line;
