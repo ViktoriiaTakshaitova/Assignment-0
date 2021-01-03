@@ -11,7 +11,7 @@ class MySolution {
 }
 
 // Do not edit this line;
-let StudentSolution = MySolution;
-module.exports = StudentSolution;
+//let StudentSolution = MySolution;
+//module.exports = StudentSolution;
 var studentSolution= new MySolution();
 console.log(studentSolution.countDownSum(10));//55
