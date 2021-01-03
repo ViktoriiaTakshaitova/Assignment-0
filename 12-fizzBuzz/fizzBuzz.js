@@ -1,29 +1,26 @@
+
 function fizzBuzz(start, end) {
   // Insert code here;
-  
-  for (var i=0; i<end+1; i++)
-   
+for( var i = 1; i <=end; i++)
+{
+    if (i % 5 == 0 && i % 3 == 0) 
     {
-      if (i/3==0)
-        {
-          console.log(" "+ "Fizz" + " ");
-        }
-       if (i/5==0)
-        {
-          console.log(" "+"Buzz" + " ");
-        }
-       if (i/3==0 && i/5==0)
-        {
-          console.log(" " + "FizzBuzz" + " ");
-        }
-       else // (i/3!=0 && i/5!=0)
-        {
-          console.log(i); //console.log
-        }
+        console.log(' FizzBuzz ')
     }
- 
+  else if (i % 5 == 0) 
+  {
+         console.log(' Buzz ');
+  }
+  else if (i % 3 == 0) 
+  {
+       console.log(' Fizz ');
+  }
+  else
+  {
+      console.log(' '+ i);
+  }
 }
-
+}
 // Do not edit this line;
 //module.exports = fizzBuzz;
-fizzBuzz(1,5);
+fizzBuzz(1,15);
