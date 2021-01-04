@@ -1,21 +1,21 @@
 function frequencyCounter(word) {
   // Insert code here;
 word=word.toLowerCase();//.split('');
-var count=1;
+var freq={};
 for (var i=0; i < word.length; i++)
-  for(var j=i+1; j < word.length; j++)
   {
-   if (word[i] == word[j])
-      {
-       count++;
-       } 
-      else
+    var character=word.charAt(i);
+   if (freq[character]){
+     freq[character]++;
+   }
+    else
         {
-          count=1;
+          freq[character]=1;
         }
-   console.log( word[i] + ":"+ count + ",\t");
+      }
+  return freq;
   }
-}
+
 // Do not edit this line;
 //module.exports = frequencyCounter;
-frequencyCounter("DooD");
+console.log(frequencyCounter("Dooda"));
