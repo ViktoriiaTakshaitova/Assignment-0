@@ -1,8 +1,6 @@
 function pairSum(nums, target) {
   // Insert code here;
 
-    nums = [1,2];//new Array();
-    target =3 ;
    
   for (var i=0; i<nums.length; i++)
     {
@@ -12,14 +10,11 @@ function pairSum(nums, target) {
         {
           return true;
         }
-      else
-        {
-          return false;
-        }
     }
 }
+  return false;
 }
 
 // Do not edit this line;
 //module.exports = pairSum;
-console.log(pairSum());
+console.log(pairSum([2, 7, 11, 15], 26));
