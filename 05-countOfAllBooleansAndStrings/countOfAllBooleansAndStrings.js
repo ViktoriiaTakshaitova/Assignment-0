@@ -3,7 +3,7 @@ function countOfAllBooleansAndStrings(arr) {
   arr = new Array ("hey", "there", "hello", "there", "world", false);
   var count=0;
   for(var i=0; i<arr.length; i++) {
-  if (arr[i]!="" || arr[i]==true || arr[i]==false)
+  if (arr[i]=="" || arr[i]==true || arr[i]==false)
   {
     count++;
   }
