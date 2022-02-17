@@ -2,15 +2,15 @@ function countOfAllNumbersSmallerThanTarget(nums, target) {
   // Insert code here;
   num = new Array  (1,2,3,4,5);
   target=9;
-  var count=0;
+  let res=0;
   for (var i=0; i <num.length; i++)
     {
       if (num[i] < target)
         {
-          count++;
+          res+=num[i];
         }
     }
-   console.log(count);
+   console.log(res);
 }
 
 // Do not edit this line;
